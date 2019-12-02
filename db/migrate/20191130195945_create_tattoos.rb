@@ -9,6 +9,7 @@ class CreateTattoos < ActiveRecord::Migration[5.2]
       t.string :artist_instagram
       t.string :location
       t.string :ink_brand
+      t.references :user, foreign_key: true
 
       t.timestamps
     end

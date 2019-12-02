@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 2019_11_30_195945) do
     t.string "ink_brand"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_tattoos_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -47,4 +48,5 @@ ActiveRecord::Schema.define(version: 2019_11_30_195945) do
   end
 
   add_foreign_key "examples", "users"
+  add_foreign_key "tattoos", "users"
 end

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class TattoosController < ApplicationController
+class TattoosController < ProtectedController
   before_action :set_tattoo, only: %i[update destroy]
 
   # GET /tattoos

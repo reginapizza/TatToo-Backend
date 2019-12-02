@@ -11,5 +11,10 @@ Rails.application.routes.draw do
   delete '/sign-out' => 'users#signout'
   patch '/change-password' => 'users#changepw'
 
-  get '/tattoos_my' => 'tattoos#index_my'
+  # get '/tattoos' => 'tattoos#'
+  get '/tattoos_my' => 'tattoos#my_tattoos'
+  # get '/tattoos' => 'tattoos#' # id?
+  # post '/tattoos' => 'tattoos#create-tattoo' # id?
+  # patch '/tattoos' => 'tattoos#edit'
+  # delete '/tattoos' => 'tattoo#delete' # id?
 end

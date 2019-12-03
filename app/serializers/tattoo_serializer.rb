@@ -5,7 +5,7 @@ class TattooSerializer < ActiveModel::Serializer
              :title,
              :picture,
              :description,
-             :date,
+             :day,
              :artist_name,
              :artist_instagram,
              :location,

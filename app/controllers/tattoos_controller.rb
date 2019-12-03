@@ -24,7 +24,7 @@ class TattoosController < ProtectedController
 
   # POST /tattoos
   def create
-    @tattoos = current_user.tattoos.build(tattoo_params)
+    @tattoo = current_user.tattoos.build(tattoo_params)
 
     if @tattoo.save
       render json: @tattoo, status: :created, location: @tattoo

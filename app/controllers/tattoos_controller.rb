@@ -57,7 +57,7 @@ class TattoosController < ProtectedController
     params.require(:tattoo).permit(:title,
                                    :picture,
                                    :description,
-                                   :date,
+                                   :day,
                                    :artist_name,
                                    :artist_instagram,
                                    :location,

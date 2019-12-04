@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   patch '/change-password' => 'users#changepw'
 
   # get '/tattoos' => 'tattoos#'
-  get '/tattoos_my' => 'tattoos#my_tattoos'
+  get '/my_tattoos' => 'tattoos#index_my'
   # get '/tattoos' => 'tattoos#' # id?
   # post '/tattoos' => 'tattoos#create-tattoo' # id?
   # patch '/tattoos' => 'tattoos#edit'

@@ -1,11 +1,11 @@
 ## **Tat, Too: Your Personal Tattoo Gallery App**.
 ------------------------------------------------------
 
-** Hello! Thank you for taking the time to check out my app! This app was created because I love tattoos and looking at them online makes me really happy. After getting my most recent tattoo, I noticed that I had a very slight reaction to the brand of ink I got and I thought that for my next one, I would like to have the artist probably use a different brand of ink, except since this was a couple months after the fact, I had no idea what type of ink the artist had used. I also realized that while some people only stick to one tattoo artist for all of their tattoos, many people with multiple tattoos have different artists (like myself) and I wanted a way to keep track of all of them so when people ask me about them I can just pull out my app and see the info all about it!  **
+**Hello! Thank you for taking the time to check out my app! This app was created because I love tattoos and looking at them online makes me really happy. After getting my most recent tattoo, I noticed that I had a very slight reaction to the brand of ink I got and I thought that for my next one, I would like to have the artist probably use a different brand of ink, except since this was a couple months after the fact, I had no idea what type of ink the artist had used. I also realized that while some people only stick to one tattoo artist for all of their tattoos, many people with multiple tattoos have different artists (like myself) and I wanted a way to keep track of all of them so when people ask me about them I can just pull out my app and see the info all about it!**
 
 ### **Important Links**:
 
-* [My Live App hosted on Github Pages]()
+* [My Live App hosted on Github Pages](https://reginapizza.github.io/TatToo-App/)
 * [My front-end repository on Github](https://github.com/reginapizza/TatToo-React-Client)
 * [My API repository on Github](https://github.com/reginapizza/TatToo-Backend)
 * [My API hosted on Heroku](https://morning-earth-83765.herokuapp.com/)

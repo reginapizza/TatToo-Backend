@@ -65,3 +65,6 @@ Many of my problems were with authentication. I wanted users to have to be signe
 ### **Original ERD Sketch:**
 
 ![Original ERD for Rails back-end](https://i.imgur.com/YZQRusN.png)
+
+![Final Landing Page Screenshot](https://i.imgur.com/AUuKHrk.png)
+![Final Home Page](https://i.imgur.com/oguWMFb.png)

@@ -10,6 +10,7 @@ class TattooSerializer < ActiveModel::Serializer
              :artist_instagram,
              :location,
              :ink_brand,
+             :user_id,
              :editable
   def editable
     scope == object.user

@@ -10,6 +10,11 @@
 * [My API repository on Github](https://github.com/reginapizza/TatToo-Backend)
 * [My API hosted on Heroku](https://morning-earth-83765.herokuapp.com/)
 
+### **Setup Steps:**
+1. Fork and clone this repository.
+2. Run `bundle install` in terminal to install dependencies
+3. Use bin/rails server to start the server.
+
 ### **Technologies Used (Backend):**
 * Ruby
 * Rails
@@ -23,6 +28,21 @@
 ### **Technologies Used (Other):**
 * Postman
 * Sketch
+
+### **Routes:**
+| HTTP Verb  | Action  | Function  | Route  | Corresponding File in React Components  |
+|---|---|---|---|---|
+| post | create | sign-up  | {{url}}/sign-up  | SignUp.js |
+| get | index | sign-in  | {{url}}/sign-in  | SignIn.js |
+| patch | update | change password  | {{url}}/change-password  | ChangePassword.js |
+| get | index | show all my tattoos  | {{url}}/my-tattoos  | MyTattoos.js |
+| get | index | show all tattoos listed on site  | {{url}}/tattoos  |  Tattoos.js |
+| | | landing page  | {{url}}/  |  LandingPage.js |
+| get | show |  view a single tattoo | {{url}}/tattoos/:id | Tattoo.js  |
+| post | create |  add a tattoo | {{url}}/create-tattoo | TattooCreate.js  |
+| patch | update |  edit a tattoo | {{url}}/tattoos/:id/edit | TattooEdit.js  |
+| delete | destroy |  delete a tattoo | {{url}}/tattoos/:id |  |
+
 
 ### **User Stories:**
 
@@ -53,7 +73,7 @@ For this app I started with my backend because I knew that I would have to creat
 
 
 ### **Problems I Ran Into (Back-end):**
-Many of my problems were with authentication. I wanted users to have to be signed in for every ineraction with my website apart from the landing page, sign-in, and sign-up and I strugged with many 401 errors. I also pushed myself beyond the requirements of the project from the start but creating routes and crud actions for getting both a single user's tattoos and all of the tattoos as opposed to just one of those options.
+Many of my problems were with authentication. I wanted users to have to be signed in for every ineraction with my website apart from the landing page, sign-in, and sign-up and I strugged with many 401 errors. I also pushed myself beyond the requirements of the project from the start by creating routes and crud actions for getting both a single user's tattoos and all of the tattoos as opposed to just one of those options. Additionally I also had a problem where when making my Tattoos table I did not include `user:references`, which quickly led me to some errors when I was trying to use user id's for authenticated crud actions on my tattos
 
 ### **Future Updates:**
 
@@ -62,9 +82,10 @@ Many of my problems were with authentication. I wanted users to have to be signe
 3.  I would like this app to be mobile-friendly
 4.  I would like to be able to mark images as NSFW and have that create a blur effect on the image until you tap on it. Additionally, I would like to have users that are under the age of 18 not be able to see any images that are marked as NSFW.
 
-### **Original ERD Sketch:**
-
+### **Original ERD and Final Images:**
+Original ERD
 ![Original ERD for Rails back-end](https://i.imgur.com/YZQRusN.png)
-
+Final Landing Page Screenshot:
 ![Final Landing Page Screenshot](https://i.imgur.com/AUuKHrk.png)
+Final Home Page Screenshot:
 ![Final Home Page](https://i.imgur.com/oguWMFb.png)
